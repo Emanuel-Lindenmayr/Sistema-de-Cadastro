@@ -20,6 +20,9 @@
             <label for="nome">Nome:</label>
             <input id="nome" name="nome" type="text" />
            
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="e-mail" />
+
             <label for="cpf">CPF:</label>
             <input id="cpf" name="cpf" type="number" />
 
