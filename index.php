@@ -19,6 +19,10 @@ switch($url)
         PessoaController::form();
     break;
 
+    case '/pessoa/form/save' :
+        PessoaController::save();
+    break;
+
     default:
         echo "error 404";
     break;

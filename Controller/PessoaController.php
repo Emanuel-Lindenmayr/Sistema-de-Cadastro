@@ -12,4 +12,8 @@ class PessoaController
         include 'View/modules/Pessoa/FormPessoa.php';
     }
 
+    public static function save()
+    {
+        var_dump($_POST);
+    }
 }
